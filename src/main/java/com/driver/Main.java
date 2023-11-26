@@ -8,16 +8,16 @@ class A {
 
 class B extends A {
 
-    @Override
-    public String meth(){
-        return "Method is overridden in Extendend class B";
-    }
+    // @Override
+    // public String meth(){
+    //     return "Method is overridden in Extendend class B";
+    // }
 }
 
 public class Main {
     
   public static void main(String[] args) {
-    B b1 = new B();
-    System.out.print(b1.meth());
+    B obj = new B();
+    System.out.print(obj.meth());
   }
 }
